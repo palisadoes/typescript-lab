@@ -1,3 +1,18 @@
+# TypeScript build outputs
+dist/
+out/
+build/
+node_modules/
+
+# TS build info cache (speed up subsequent compilations)
+*.tsbuildinfo
+
+# Optional: Ignore generated JS files if you only want to commit TS source files
+# (Do not use this if you are building a library that needs compiled JS committed)
+# *.js
+# *.js.map
+# *.d.ts.map
+
 # Logs
 logs
 *.log
